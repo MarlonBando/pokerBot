@@ -9,3 +9,5 @@
    #define HEARTS   "\xE2\x99\xA5"
    #define DIAMONDS "\xE2\x99\xA6"
 #endif
+
+#define DECK_SIZE 52

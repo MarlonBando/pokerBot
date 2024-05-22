@@ -1,7 +1,7 @@
 #ifndef CARD_H
 #define CARD_H
 
-#include "suits.h"
+#include "pokerConstant.h"
 #include <string>
 
 class Card {

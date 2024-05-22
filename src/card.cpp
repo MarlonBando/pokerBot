@@ -23,6 +23,8 @@ int Card::getIntValue() const
         return 12;
     case 'J':
         return 11;
+    case 'T':
+        return 10;
     default:
         return _value - '0';
     }
@@ -30,7 +32,7 @@ int Card::getIntValue() const
 
 std::string Card::toString() const
 {
-    return std::string(1, _value) + " of " + _suit;
+    return std::string(1, _value) + _suit;
 }
 
 bool Card::operator== (const Card& other) const
